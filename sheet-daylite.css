@@ -1,0 +1,266 @@
+/**Style SCC**/
+body {
+	margin: 0;
+	padding: 0;
+}
+/**CSS for header part**/
+header {
+	width:100%;
+	height: 100px;
+	line-height: 100px;
+}
+/** The end CSS for header part**/
+/**------**/
+/**CSS for header-fixed part**/
+.dl_logout-header-fixed {
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	position: fixed;
+	top: 0;
+	background-color: #ffffff;
+	z-index: 999;
+}
+#logo {
+	float: left;
+}
+#dl_menu {
+	float: right;
+}
+#dl_menu:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+/**------**/
+/**---CSS for nav---**/
+nav {
+	float: left;
+}
+nav ul {
+	margin: 0;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: #999966;
+}
+/**------**/
+/**style CSS icon part**/
+#dl_icon {
+	float: right; 
+	line-height: 100px;
+}
+.dl_icon-box {
+	display: inline-block;
+	width: 210px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 40px;
+	margin-left: 1.5em;
+	border-left: 1px solid #e6e6ff;
+}
+.dl_icon-img {
+	margin-left: -8px;
+	text-align: right;
+}
+
+/**the end part header**/
+#dl_banner {
+	width: 100%;
+	height: 500px;
+	padding: 50px;
+	background: #1f2e2e;
+}
+.dl_banner-row {
+	width: 100%;
+	height: 400px;
+}
+	.dl_banner-left {
+
+	}
+	.dl_banner-left h1 {
+		color: #999966;
+		font-size: 3.0em;
+		margin: 20px 0 20px 0;
+		text-transform: capitalize;
+	}
+	.dl_banner-left span {
+		color: #e0e0d1;
+		font-size: 1.5em;
+		font-weight: 300;
+	}
+	.dl_banner-top-buttom {
+		width: 150px;
+		height: 50px;
+		border: 2px solid #999966;
+		background: #1f2e2e;
+		margin: 25px 0; 
+		overflow: hidden;
+	}
+	.dl_banner-img-right {
+		display: inline-block;
+		text-align: right;
+		background-image: url(../Daylite/image/Layer-16.png);
+		background-size: 310px 400px;
+		background-position: 100% 0;
+		background-repeat: no-repeat;
+	}
+/**The end banner part**/
+#dl-main {
+	width: 100%;
+	height: 
+}
+	#dl_main-top {
+		width: 100%;
+		height: 260px;
+		padding-top: 20px;
+		background: #f5f5f0;
+	}
+		.dl_main-message {
+			font-size: 16px;
+			font-weight: 700;
+		}
+		/**CSS global for header part**/
+		.dl-heading {
+			color: #9494b8;
+			font-size: 22px;
+			font-weight: 700;
+			letter-spacing: -0.5px;
+			margin: 30px 0;
+		}
+		/**The end main-message part**/
+		/**------**/
+		/**CSS global for content part**/
+		.dl-content {
+			color: #94b8b8;
+			font-size: 18px;
+			font-weight: 400;
+			letter-spacing: -0.5px;
+		} /**the end CSS global for content part**/
+		.dl_main-top-buttom {
+			width: 150px;
+			height: 50px;
+			background: #f5f5f0;
+			border: 2px solid #999966;
+			color: #999966;
+			margin: 25px 0; 
+			overflow: hidden;
+			font-weight: 700;
+			text-transform: capitalize;
+		}
+		.dl_main-top-buttom-spc {
+			width: 150px;
+			height: 50px;
+			margin-left: 1em;
+			background: #f5f5f0;
+			border: 2px solid #c65353;
+			color: #c65353;
+			margin: 25px 0; 
+			overflow: hidden;
+			font-weight: 700;
+			text-transform: capitalize;
+		}
+	.dl_content-process {
+		margin-top: 50px; 
+	}
+		/**The end main-top part**/
+		.dl_main-content-prc {
+			width: 100%;
+			height: 250px;
+			
+
+		}
+		.dl_content-column {
+			width: 218px;
+			height: 250px;
+			position: relative;
+			display: inline-block;
+			margin: 0 auto;
+			text-align: center;
+			color: #1f2e2e;
+			font-size: 14px;
+		}
+		.dl_content-avt {
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+			border: 2px solid #999966;
+			margin: 20px auto;
+			border-radius: 50%;
+		}
+		.dl-column-st {
+			color: #999966;
+		}
+	.dl_main-content-stuff {
+		width: 100%;
+		height: 300px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+		.dl-content-grapis {
+			
+		}
+	.dl-content-stuff-space {
+		width: 100%;
+		height: 220px;
+		background: #a3c2c2;
+	}
+#dl_main-botom {
+	width: 100%;
+		height: 260px;
+		text-align: center;
+		background: #f5f5f0;
+		padding: 40px 0;
+}
+	.dl_main-bottom-comment {
+		
+	}
+	.dl-content-stuff-aphabet {
+		width: 100%;
+		height: 60px;
+		padding-top: 10px;
+	}
+/**The end main part**/
+#dl_nav-footer {
+	width: 100%;
+	height: 410px;
+	position: relative;
+	background: #141f1f;
+}
+#dl_nav-footer-inner {
+	width: 95%;
+	height: 300px;
+	margin: 50px 0;
+	position: absolute;
+	color: #ebebe0;
+	overflow: hidden;
+}
+	.dl_nav-footer-area {
+		width: 240px;
+	}
+/**The end nav-footer part**/
+footer {
+	width: 100%;
+	 height: 80px;
+	 line-height: 80px;
+     background-color: #333;
+     text-align: left;
+     color: #b9bfc3;
+}
+.dl_footer-Daylite {
+	font-size: 14px;
+	line-height: 80px;
+	font-weight: 300;
+	font-family: sans-serif;
+}
